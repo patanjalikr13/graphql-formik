@@ -208,6 +208,7 @@ const FormToShow = () => {
                                                     </div>
                                                     {
                                                         touched.email && errors.email &&
+
                                                         <div className="col-sm-3">
                                                             <small className="text-danger">
                                                                 {errors.email}
